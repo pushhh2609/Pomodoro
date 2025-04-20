@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.timer{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+
+.controls,
+.modes {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.startBtn {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.stopBtn {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF474C;
+    color: white;
+    cursor: pointer;
+}
+
+.resetBtn{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.shortBreakBtn{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: white;
+    cursor: pointer;
+}
+
+.longBreakBtn{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+}
+
+.shortBreakBtn:hover {
+    background-color: #0056b3;
+}
+.longBreakBtn:hover{
+    background-color: #9400D3;
+}
+.startBtn:hover{
+    background-color: darkgreen;
+}
+.stopBtn:hover{
+    background-color: #8B0000;
+}
+.resetBtn:hover{
+    background-color: #A9A9A9;
+}
